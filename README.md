@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 #### How to start server
-Migrations can only done the first time. 
+Migrations not need to be run every time. 
 ```
 python manage.py makemigrations
 python manage.py migrate

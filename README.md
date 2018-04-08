@@ -1,7 +1,7 @@
 ## StubTradeAPI
 *Description* : The API is used to provide historic data to FinApp
 
-####How to install
+#### How to install
 ```
 git clone <github_url>
 cd StubTradeAPI
@@ -16,7 +16,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-####How to load data to the API
+#### How to load data to the API
 
 ```
 python load.py data.csv

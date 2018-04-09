@@ -40,8 +40,8 @@ How to Get the CSV :
 """
 
 if len(sys.argv) == 2:
-    csv_file = sys.argv[1]
     url = "http://127.0.0.1:8000/tickadd/"
+    csv_file = sys.argv[1]
     print "Info : Using the default URL 'http://127.0.0.1:8000/tickadd/' "
 elif len(sys.argv) == 3:
     csv_file = sys.argv[1]

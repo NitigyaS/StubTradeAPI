@@ -25,6 +25,7 @@ class SymbolView(generics.ListAPIView):
 
     def get_queryset(self):
         symbol = self.kwargs['symbol']
+        range =  self.kwargs['range']
         symbol = str(symbol).upper() # All Symbols are in Upper Case
         queryset = Ticks.objects.filter(symbol=symbol)
         return queryset

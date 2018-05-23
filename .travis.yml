@@ -1,13 +1,10 @@
 language: python
 python:
  - "3.6"
-
-services:
- - redis-server
-
+ 
 install:
  - sudo apt-get update
- - sudo apt-get install yarn
+ - sudo npm install yarn -g
  - pip install pipenv
  - pipenv install
  - yarn install

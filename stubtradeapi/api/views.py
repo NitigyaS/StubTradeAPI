@@ -86,7 +86,7 @@ class ExactSymbolView(generics.ListAPIView):
         return queryset
 
     def get_days(self, range):
-        pattern = re.compile('(\d+)day')
+        pattern = re.compile('(\d+)')
         count = pattern.match(range).group(1)
         return int(count)
 

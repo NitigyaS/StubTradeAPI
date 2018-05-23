@@ -8,7 +8,8 @@ services:
 before_install:
  - cp dev.env .env
 install:
- - sudo apt-get update && sudo apt-get install yarn
+ - sudo apt-get update
+ - sudo apt-get install yarn
  - pip install pipenv
  - pipenv install
  - yarn install

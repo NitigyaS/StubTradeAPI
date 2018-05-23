@@ -1,4 +1,7 @@
 ## StubTradeAPI
+
+[![Build Status](https://travis-ci.org/NitigyaS/StubTradeAPI.svg?branch=master)](https://travis-ci.org/NitigyaS/StubTradeAPI)
+
 *Description* : The API is used to provide historic data to FinApp
 
 #### How to install
